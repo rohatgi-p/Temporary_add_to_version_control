@@ -1,0 +1,3 @@
+useDynLib(Temporary_add_to_version_control, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
